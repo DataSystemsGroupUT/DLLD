@@ -2,9 +2,9 @@
 
 This framework performs Lesion detection on Lung CT Scans. The repository contains code and reference to data that has been used to train this system. The dataset used in this exeriment can be downloaded from : https://nihcc.app.box.com/v/DeepLesion/
 
-The files in the code are arranged as :<br>
+The files in the repository are arranged as :<br>
 Data/: <br>
-&ensp;	/data_subset.csv : List of files used from the original dataset in .csv format and the used binning<br>
+&ensp;	/data_subset.csv : List of files used from the original dataset in .csv format in the kfold bins used<br>
 Segmentation/:<br>
 &ensp;	/extract_patches.py: Script to extract lesion and normal patches from the preprocessed images. Exports a .pickle used for training in train_test_segmentation.py<br>
 &ensp;	/train_test_segmentation.py: Script to train the RBM and Random Forsest pipeline on extracted patches. Exports a trained model to be used in segmentation.py. Install the given version of tensorfow-rbm-master before using this script.<br>
@@ -20,8 +20,8 @@ tensorfow-rbm-master/:<br>
 
 To install: from the terminal in the folder tensorfow-rbm-master/ use the following command:
 
-'''
+```
 python setup.py install
-'''
+```
 
 
