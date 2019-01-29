@@ -10,7 +10,7 @@ Segmentation/:<br>
 &ensp;	/train_test_segmentation.py: Script to train the RBM and Random Forsest pipeline on extracted patches. Exports a trained model to be used in segmentation.py. Install the given version of tensorfow-rbm-master before using this script.<br>
 &ensp;	/segmentation.py: Script to segment image files using trained model.<br><br>
 Postprocessing/:<br>
-&ensp;	/train_filter.py: Script to extract training and test for training filter for postprocessing. Exports instances to train the svm on.<br>
+&ensp;	/train_filter.py: Script to extract training and test for training filter for postprocessing. Exports instances to train the svm.<br>
 &ensp;	/svm.py: Script to train the filter and exports a trained filter.<br>.
 &ensp;	/evaluate.py: Script to output the final bounding box predictions. This also outputs the metrics such as sensitivity and false positive per image on the folder that the evaluation is performed.<br><br>
 Utilities/:<br>
