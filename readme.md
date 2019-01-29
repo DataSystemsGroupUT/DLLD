@@ -16,11 +16,12 @@ Postprocessing/:<br>
 Utilities/:<br>
 &ensp;	/bounding_box.py: Put a bounding box on any data image as per the annotation in the meta-data file with the data.<br>
 tensorfow-rbm-master/:<br>
-&ensp;	Modified version of Restricted Boltzmann Machine Library we use. Please use this version only as the activation functions has been
-		modified from the origional library.<br>
+&ensp;	Modified version of Restricted Boltzmann Machine Library we use. Please use this version only, as the activation functions has been modified from the origional library.<br>
 
 To install: from the terminal in the folder tensorfow-rbm-master/ use the following command:
 
+'''
 python setup.py install
+'''
 
 
