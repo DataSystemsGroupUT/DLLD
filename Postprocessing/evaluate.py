@@ -52,9 +52,9 @@ def eval_box(bbox1,bbox2):
 
 dirc='Final TEST M-S/Medium/' # Input Images Directory 
 OutDir='Output/' # Directory to output image outputs
-meta_file='/Users/tarunkhajuria/Dropbox/My files @Tarun Khajuria/University of Tartu/Big Data Group/Deep Lesion Project/Experiment/DL_info.csv' # Link to meta file from Dataset
-org_dir='/Users/tarunkhajuria/Dropbox/My files @Tarun Khajuria/University of Tartu/Big Data Group/Deep Lesion Project/Experiment/Images/' # Link to folder containing origional files unsegmented 
-b_box_dir='/Users/tarunkhajuria/Dropbox/My files @Tarun Khajuria/University of Tartu/Big Data Group/Deep Lesion Project/Experiment/B_box/' # Link to folder containing files with bounding box
+meta_file='DL_info.csv' # Link to meta file from Dataset
+org_dir='Images/' # Link to folder containing origional files unsegmented 
+b_box_dir='B_box/' # Link to folder containing files with bounding box created using Utilities/boudning_box.py
 
 lung_low=90 # set lowest side size for selection of lung
 lung_high=400 # set highest side size for selection of lung
