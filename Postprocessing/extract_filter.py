@@ -53,9 +53,9 @@ def eval_box(bbox1,bbox2):
 
 dirc='Mlarge_Input/Train/'  # Input folder for training or tesing data (run once for train and other time for test data, also change name of saved pickle file)
 OutDir='Mlarge_Input/Output/' # Output directory, to store figures
-meta_file='/Users/tarunkhajuria/Dropbox/My files @Tarun Khajuria/University of Tartu/Big Data Group/Deep Lesion Project/Experiment/DL_info.csv' # link to meta file
-org_dir='/Users/tarunkhajuria/Dropbox/My files @Tarun Khajuria/University of Tartu/Big Data Group/Deep Lesion Project/Experiment/Images/' # link to original folder directory
-b_box_image_dir='/Users/tarunkhajuria/Dropbox/My files @Tarun Khajuria/University of Tartu/Big Data Group/Deep Lesion Project/Experiment/B_box/' # link to bounding box folder
+meta_file='DL_info.csv' # link to meta file
+org_dir='Images/' # link to original folder directory
+b_box_image_dir='B_box/' # link to bounding box folder created using Utilities/bounding_box.py
 
 info=pd.read_csv(meta_file)
 lung_info=info[info.Coarse_lesion_type == 5] # 5 for lung lesions
