@@ -2,10 +2,10 @@ import pandas as pd
 import numpy as np
 import cv2
 import os
-base='/content/gdrive/My Drive/Data Systems/Segmentation/'
 input_dir='Input/'
 output_dir='B_box/'
-info=pd.read_csv('/Users/tarunkhajuria/Dropbox/My files @Tarun Khajuria/University of Tartu/Big Data Group/Deep Lesion Project/Experiment/DL_info.csv')
+# Read the Dataset Meta file here.
+info=pd.read_csv('')
 lung_info=info[info.Coarse_lesion_type == 5] # 5 for lung lesions
 
 for file in os.listdir(input_dir):
